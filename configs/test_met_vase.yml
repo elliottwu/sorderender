@@ -1,0 +1,48 @@
+## test met vase
+## trainer
+run_test: true
+batch_size: 24
+checkpoint_dir: results/met_vase_pretrained
+checkpoint_name: checkpoint500.pth
+test_result_dir: results/met_vase_pretrained/test_results_checkpoint500
+
+## dataloader
+image_size: 256
+load_gt_mask: true
+paired_data_dir_names: ['images', 'masks']
+test_data_dir: data/met_vases/image_mask/test
+
+## model
+model_name: derender_vase
+radcol_height: 32
+sor_circum: 96
+tex_im_h: 256
+tex_im_w: 768
+min_hscale: 0.5
+max_hscale: 0.95
+x_rotation_min: 0  # (-r,r) in degrees
+x_rotation_max: 20  # (-r,r) in degrees
+z_rotation_min: -10  # (-r,r) in degrees
+z_rotation_max: 10  # (-r,r) in degrees
+xy_translation_range: 0.2  # ratio of (roughly) image size in 3D
+spec_albedo_min: 0.1
+spec_albedo_max: 2.0
+env_map_h: 16
+env_map_w: 48
+
+## losses
+lam_mask: 10
+lam_mask_dt: 100
+lam_im: 1
+lam_mean_albedo_im: 1
+diffuse_reg_mean: 0.5
+diffuse_reg_margin: 0.1
+lam_diffuse_reg: 1
+sample_patch_size: 64
+lam_GAN: 0.01
+# lr: 0.0002
+
+## renderer
+fov: 10  # in degrees
+ori_z: 5
+tx_size: 8  # 4, 8
