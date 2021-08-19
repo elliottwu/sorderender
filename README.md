@@ -1,7 +1,7 @@
 # De-rendering the World's Revolutionary Artefacts
 #### [Project Page](https://sorderender.github.io/) | [Video](https://youtu.be/pxkYyyw02H0) | [Paper](https://arxiv.org/abs/2104.03954)
 
-In CVPR 2020
+In CVPR 2021
 
 [Shangzhe Wu](https://elliottwu.com/)<sup>1,4</sup>, [Ameesh Makadia](http://ameeshmakadia.com/index.html)<sup>4</sup>, [Jiajun Wu](https://jiajunwu.com/)<sup>2</sup>, [Noah Snavely](https://www.cs.cornell.edu/~snavely/)<sup>4</sup>, [Richard Tucker](https://research.google/people/RichardTucker/)<sup>4</sup>, [Angjoo Kanazawa](https://people.eecs.berkeley.edu/~kanazawa/)<sup>3,4</sup>
 
