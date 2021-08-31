@@ -64,7 +64,7 @@ Download the dataset using the provided script:
 cd data && sh download_syn_vases.sh
 ```
 
-We also provide the scripts for downloading [CC0 Textures](https://cc0textures.com/) and generating this dataset in `data/syn_vases/scripts/`. Note the script uses API V1, which appears outdated already. Many assets have now been removed. [API V2](https://help.ambientcg.com/04-API/API_v2.html) has been released. Please check and adapt the code to the new API.
+We also provide the scripts for downloading [CC0 Textures](https://cc0textures.com/) and generating this dataset in `data/syn_vases/scripts/`. Note the script uses API V1 of CC0 Textures to download the texture maps, which appears outdated already. Many assets have now been removed. [API V2](https://help.ambientcg.com/04-API/API_v2.html) has been released. Please check and adapt the code to the new API.
 
 ## Pretrained Models
 Download the pretrained models using the scripts provided in `pretrained/`, eg:
