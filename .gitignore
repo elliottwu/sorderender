@@ -1,4 +1,7 @@
 /data/*/
+!/data/syn_vases
+/data/syn_vases/*
+!/data/syn_vases/scripts
 /pretrained/*/
 /results
 /neural_renderer
