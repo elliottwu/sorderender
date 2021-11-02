@@ -81,7 +81,7 @@ python run.py --config configs/train_met_vase.yml --gpu 0 --num_workers 4
 
 
 ## Evaluation on Synthetic Vases
-After generating the results on the test set (see `configs/test_met_vase.yml`), check and run:
+After generating the results on the test set (see `configs/test_syn_vase.yml`), check and run:
 ```
 python eval/eval_syn_vase.py
 ```
